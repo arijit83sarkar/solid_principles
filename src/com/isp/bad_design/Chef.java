@@ -9,20 +9,17 @@ public class Chef implements IRestaurantStaff {
 
     @Override
     public void takeOrder(String customerName, String orderDetails) {
-        // Chef doesn't take orders! This method is irrelevant.
-        throw new UnsupportedOperationException("Chef does not take orders.");
+        System.out.println("Chef does not take orders.");
     }
 
     @Override
     public void serveFood(String customerName, String foodItem) {
-        // Chef doesn't serve food!
-        throw new UnsupportedOperationException("Chef does not serve food.");
+        System.out.println("Chef does not serve food!");
     }
 
     @Override
     public void washDishes(int numberOfDishes) {
-        // Chef doesn't wash dishes!
-        throw new UnsupportedOperationException("Chef does not wash dishes.");
+        System.out.println("Chef does not wash dishes!");
     }
 
     @Override
@@ -32,14 +29,12 @@ public class Chef implements IRestaurantStaff {
 
     @Override
     public void handlePayment(double amount) {
-        // Chef doesn't handle payments!
-        throw new UnsupportedOperationException("Chef does not handle payments.");
+        System.out.println("Chef does not handle payments!");
     }
 
     @Override
     public void cleanTable(int tableNumber) {
-        // Chef doesn't clean tables!
-        throw new UnsupportedOperationException("Chef does not clean tables.");
+        System.out.println("Chef does not clean tables!");
     }
 
 }
