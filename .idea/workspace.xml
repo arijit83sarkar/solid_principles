@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb09c03-f757-4cc7-81ac-48f5e05801ac" name="Changes" comment="" />
+    <list default="true" id="ceb09c03-f757-4cc7-81ac-48f5e05801ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "1-code-example-without-interface-…ciple",
+    "git-widget-placeholder": "3-give-me-more-bad-example-of-isp",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/raven/Documents/java_projects/solid_design_principles"
   }
