@@ -1,0 +1,25 @@
+package com.isp.good_design;
+
+public class Waiter implements IWaiter {
+
+    @Override
+    public void takeOrder(String customerName, String orderDetails) {
+        System.out.println("Waiter: Yes, I can take order from the customers.");
+    }
+
+    @Override
+    public void serveFood(String customerName, String foodItem) {
+        System.out.println("Waiter: Yes, I can serve food to the customers.");
+    }
+
+    @Override
+    public void handlePayment(double amount) {
+        System.out.println("Waiter: Yes, I can take payment from the customers.");
+    }
+
+    @Override
+    public void cleanTable(int tableNumber) {
+        System.out.println("Waiter: Yes, I will clean the tables.");
+    }
+
+}
